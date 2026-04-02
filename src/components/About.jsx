@@ -10,7 +10,7 @@ const About = () => {
       degree: "Bachelor of Technology - Computer Science and Engineering",
       location: "Punjab, India",
       date: "Since August 2023",
-      score: "CGPA: 7.01"
+      score: "CGPA: 6.0"
     },
     {
       institution: "St. John's School",
@@ -44,7 +44,7 @@ const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="container">
-        <motion.h2 
+        <motion.h2
           className="section-title"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ const About = () => {
         </motion.h2>
 
         <div className="about-content">
-          <motion.div 
+          <motion.div
             className="about-text glass-card"
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -62,11 +62,11 @@ const About = () => {
           >
             <h3><BookOpen className="inline-icon" /> My Journey</h3>
             <p>
-              I am a passionate Computer Science student and aspiring developer who thrives on solving complex problems. 
-              My journey involves building efficient applications in C++ and Java while creating modern, responsive web experiences. 
+              I am a passionate Computer Science student and aspiring developer who thrives on solving complex problems.
+              My journey involves building efficient applications in C++ and Java while creating modern, responsive web experiences.
               I am dedicated to continuous learning and leveraging my problem-solving skills to build impactful software.
             </p>
-            
+
             <div className="highlights">
               <div className="highlight-item">
                 <Award className="highlight-icon" />
@@ -85,7 +85,7 @@ const About = () => {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             className="about-education"
             variants={containerVariants}
             initial="hidden"
